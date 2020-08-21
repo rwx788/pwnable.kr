@@ -1,0 +1,4 @@
+rand() is not secure hash and without seed will generate same number if called
+just once.
+So all we need to call rand(), see which value it provides and XOR it with
+0xdeadbeef.
